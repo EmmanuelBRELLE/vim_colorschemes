@@ -36,7 +36,8 @@ hi String     ctermfg=222 ctermbg=NONE cterm=NONE
 hi SpecialChar     ctermfg=209 ctermbg=NONE cterm=NONE
 " tabs
 set list
-set listchars=eol:$,tab:~\ ,trail:~,extends:>,precedes:<
+"eol
+set listchars=tab:~\ ,trail:~,extends:>,precedes:<
 hi SpecialKey     ctermfg=66 ctermbg=NONE cterm=bold
 "side panel title
 hi StatusLine     ctermfg=White ctermbg=23 cterm=bold
@@ -70,6 +71,8 @@ hi DiffAdd     ctermfg=NONE ctermbg=22 cterm=bold
 hi DiffDelete     ctermfg=NONE ctermbg=88 cterm=bold
 hi DiffText     ctermfg=15 ctermbg=136 cterm=bold
 hi DiffChange     ctermfg=NONE ctermbg=235 cterm=bold
+"cc=80 color
+hi ColorColumn ctermbg=8
 
 "Autocompletion (C+p)menu
 hi PMenu     ctermfg=0 ctermbg=244 cterm=NONE
