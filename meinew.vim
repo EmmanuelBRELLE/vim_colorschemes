@@ -10,6 +10,9 @@ endif
 
 set cc=80
 
+"highlight ExtraWhitespace ctermbg=red guibg=red
+"match ExtraWhitespace /\s\+$/
+
 set t_Co=256
 let g:colors_name = "meinew"
 
@@ -88,6 +91,9 @@ hi PMenu            ctermfg=0       ctermbg=244     cterm=NONE
 hi PMenuSel         ctermfg=0       ctermbg=249     cterm=NONE
 hi PMenuThumb       ctermfg=9       ctermbg=23      cterm=NONE
 
+"Navigating in directories
+hi Directory        ctermfg=15      ctermbg=17       cterm=bold
+
 "hi clear -- no settings --
 hi CursorColumn     ctermfg=118     ctermbg=9       cterm=NONE
 hi Union            ctermfg=254     ctermbg=9       cterm=NONE
@@ -107,7 +113,6 @@ hi Tag              ctermfg=160     ctermbg=9       cterm=NONE
 hi LocalVariable    ctermfg=254     ctermbg=9       cterm=NONE
 hi SpellBad         ctermfg=254     ctermbg=9       cterm=NONE
 hi CTagsClass       ctermfg=254     ctermbg=9       cterm=NONE
-hi Directory        ctermfg=32      ctermbg=9       cterm=NONE
 hi Underlined       ctermfg=61      ctermbg=9       cterm=underline
 hi TabLine          ctermfg=66      ctermbg=9       cterm=underline
 hi cursorim         ctermfg=235     ctermbg=9       cterm=NONE
